@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/guladasumo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Selectors</title>
+  <link href='http://fonts.googleapis.com/css?family=Gloria Hallelujah' rel='stylesheet'>
+
+<style id="jsbin-css">
+body{
+      font-family: 'Gloria Hallelujah';font-size: 12px;
+background: #60fcd9;
+}
+form h2{
+  display:block;
+  background: #cafa03 ;
+  text-align:center;
+  color:blue;
+}
+form>p{
+  color:red;
+}
+label+span+input{
+  color:blue
+}
+label+input{
+  color:violet
+}
+*+fieldset{
+  margin:1em
+}
+label~input{
+  color:yellow
+}
+
+</style>
+</head>
+<body>
+<form method="GET" action="/processor">
+  <h2>Buy tickets to the web devloper gala</h2>
+    <p>Tickets are 10$ each.Dinner packages costs 5$ extra.All fields are reqiured</p>
+    <fieldset>
+      <legend>Tickets and Add-ons</legend>
+      <p>
+        <label for="quantity">Number of ticket</label>
+        <span class="help">Limit 8</span>
+        <input type="number" value="1" name="quantity" id="quantity" step="1" min="1" max="8">
+      </p>
+      
+      <p>
+        <label for="quantity">Dinner packages</label>
+        <span class="help">Serves 2</span>
+        <input type="number" value="1" name="quantity" id="quantity" step="1" min="1" max="8">
+      </p>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Payment</legend>
+      <p>
+        <label for="ccn">Credit Card Number</label>
+        <span class="help">No Space or Dashes Please</span>
+        <input type="text" id="expiration" name="expiration" placeholder="01/2018" max-length="7" size="7">
+      </p>
+    </fieldset>
+      
+<fieldset>
+  <legend>Billing Addres</legend>
+  <p>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="public" size="40">
+  </p>
+  <p>
+    <label for="city">City</label>
+    <input type="text" name="city" id="city" placeholder="EG:Anytown">
+  </p>
+    </fieldset>
+    <button type="submit">Buy Tickets</button>
+    </form>
+</body>
+</html>
