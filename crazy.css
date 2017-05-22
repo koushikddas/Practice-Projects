@@ -1,0 +1,72 @@
+.part div:nth-of-type(n){
+  float:left;
+  padding:4px;
+  text-align:center;
+  margin:1px;
+  border:2px solid black;
+  outline-style: outset;
+-webkit-transform: rotateY(360deg);
+}
+
+a{
+  text-decoration:none;
+}
+ul{
+  list-style: none;
+}
+.hola{
+  background:orange;
+}
+br{
+  clear:both;
+}
+.header li{
+  float:right;
+  display:inline;
+  padding:1em;
+}
+div.one{
+  width:10%;
+  height:auto;
+  background:rgb(0, 255, 127);
+}
+div.two{
+  width:10%;
+  height:auto;
+  background:red;
+}
+div.three{
+  width:10%;
+  height:auto;
+  background:yellow;
+}
+div.four{
+  width:10%;
+  height:auto;
+  background:orange;
+}
+div.five{
+  width:10%;
+  height:auto;
+  background:skyblue;
+}
+div.six{
+  width:10%;
+  height:auto;
+  background:pink;
+}
+div.seven{
+  width:10%;
+  height:auto;
+  background:violet;
+}
+div.eight{
+  width:10%;
+  height:auto;
+  background:deepskyblue;
+}
+div.nine{
+  width:10%;
+  height:auto;
+  background:violet;
+}

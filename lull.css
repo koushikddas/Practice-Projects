@@ -1,0 +1,48 @@
+/*Global Styles*/
+a{text-decoration:none}
+body{background:rgba(100, 149, 237,.5)}
+/*Global Styles Ends*/
+#hell{
+background-color:skyblue;
+}
+.top-nav div:nth-of-type(n){
+  float:left;
+  padding:2em;
+  background: skyblue;
+  width:20%;
+  text-align:center;
+  color:white;
+  font-family:arial;
+  font-size: 1em;
+  border-right: 2px solid white;
+  transition:background 2s;
+}
+.top-nav div:nth-of-type(n):hover{
+  background:lime;
+  text-transform:uppercase;
+}
+.links{
+float:left;
+width:20%;
+background:deepskyblue;
+
+}
+.links a{
+  display:block;
+  padding:1em;
+  font-family: arial;
+}
+.links a:hover{
+  background:yellow;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+br{clear:both}
+.text{
+  float:right;
+  width:78%;
+  background:orange;
+}
+.something{
+  float:left;
+}

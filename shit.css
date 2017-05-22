@@ -1,0 +1,35 @@
+html{
+  background:deepskyblue;
+}
+body{
+  background:rgba(255, 255, 255, 0.5);
+}
+.m-col1 div:nth-of-type(n){
+  column-count: 4;
+
+}
+.m-col1 p{
+    border-right: 2px solid white;
+}
+.link1{
+  display:inline-block;
+  padding:0.5em;
+}
+.link1 a{
+  display:inline-block;
+  background:orange;
+  padding:1em;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 1px yellow;
+  margin-left:9.5%;
+}
+a{
+  text-decoration:none;
+}
+header h2{
+  text-align: center;
+}
+.link1 a:hover{
+  color:white;
+  background: black;
+}
